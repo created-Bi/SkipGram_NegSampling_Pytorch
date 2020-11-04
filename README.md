@@ -8,11 +8,12 @@ tqdm
 sklearn
 
 ## 😀Get Started
-Get this code. git clone https://github.com/created-Bi/SkipGram_NegSampling_Pytorch.git
+Get this code. 
+  `git clone https://github.com/created-Bi/SkipGram_NegSampling_Pytorch.git`
 
 ### 😊1. Corpus
-  In this case, we use the PTB data from torchnlp.
-  You can see more details from https://pytorchnlp.readthedocs.io/en/latest/source/torchnlp.datasets.html
+In this case, we use the PTB data from torchnlp.
+  You can see more details from (https://pytorchnlp.readthedocs.io/en/latest/source/torchnlp.datasets.html)
 ### 😚2. How to implement ?
 #### 2.1 Skip_Gram
   Skip Gram use the center word to predict the context words.
