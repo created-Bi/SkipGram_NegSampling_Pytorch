@@ -26,6 +26,6 @@ In this case, we use the PTB data from torchnlp.
 ### 2. create_sample_table: 
   Because of the NegS, we need to create a table according to the frequency of the words occuring in the corpus.
 ### 3. get_ptb_data: 
-  We train the model with the most common corpus named PTB, and <penn_treebank_dataset(train=True)> represents you will download the train data.
+  We train the model with the most common corpus named PTB, and `penn_treebank_dataset(train=True)` represents you will download the train data.
 ### 4. get_center_context_pairs:
   When we train the model, we need a (or a batch of) <center_word, context_word> pair. 
